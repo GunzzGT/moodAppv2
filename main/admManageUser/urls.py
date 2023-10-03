@@ -7,7 +7,7 @@ from .views import (
 )
 
 urlpatterns = [
-    path('adm/view/all/', ViewAll.as_view(), name='ViewAll'),
-    path('adm/view/one/<str:pk>/', ViewOne.as_view(), name='ViewOnePk'),
-    path('adm/view/self/', ViewSelf.as_view(), name='ViewOneAuth'),
+    path('adm/user/view/all/', ViewAll.as_view(), name='ViewAll'),
+    path('adm/user/view/one/<str:pk>/', ViewOne.as_view(), name='ViewOnePk'),
+    path('adm/user/view/self/', ViewSelf.as_view(), name='ViewOneAuth'),
 ]

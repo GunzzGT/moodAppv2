@@ -5,5 +5,5 @@ from .views import (
 )
 
 urlpatterns = [
-    path('user/manage/', ViewSelf.as_view(), name='ViewSelf'),
+    path('user/account/manage/', ViewSelf.as_view(), name='ViewSelf'),
 ]

@@ -23,9 +23,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'appSignUp',
     'appSignIn',
+    'appUserManage',
+    'appUserManageQuestions',
     'admManageUser',
     'admManageQuestions',
-    'appUserManageQuestions',
     'utils'
 ]
 

@@ -6,6 +6,6 @@ from .views import (
 )
 
 urlpatterns = [
-    path("signin/", LoginView.as_view(), name="LoginTokenCreate"),
-    path("refresh/", RefreshView.as_view(), name="LoginTokenRefresh"),
+    path("user/signin/", LoginView.as_view(), name="LoginTokenCreate"),
+    path("user/refresh/", RefreshView.as_view(), name="LoginTokenRefresh"),
 ]
